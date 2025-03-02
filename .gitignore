@@ -18,7 +18,23 @@
 *.zip
 *.tar.gz
 *.rar
+*.xml
+*.iml
+*.lst
+*.txt
+*.dumpstream
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+.idea/
+
+# Ignore .xml, pom.properties, and misc.xml files
+*.xml
+pom.properties
+misc.xml
+encodings.xml
+compiler.xml
+misc.xml
+vcs.xml
